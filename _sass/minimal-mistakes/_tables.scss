@@ -16,6 +16,10 @@ table {
   }
 }
 
+caption {
+  font-size: $type-size-4;
+}
+
 thead {
   background-color: $border-color;
   border-bottom: 2px solid mix(#000, $border-color, 25%);

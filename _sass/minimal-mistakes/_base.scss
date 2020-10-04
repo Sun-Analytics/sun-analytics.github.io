@@ -12,7 +12,8 @@ body {
   margin: 0;
   padding: 0;
   color: $text-color;
-  font-family: $global-font-family;
+  // font-family: $global-font-family;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
   line-height: 1.5;
 
   &.overflow--hidden {
@@ -266,6 +267,7 @@ figcaption {
   color: $muted-text-color;
   font-family: $caption-font-family;
   font-size: $type-size-6;
+  text-align: center; 
 
   a {
     -webkit-transition: $global-transition;

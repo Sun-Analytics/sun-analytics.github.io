@@ -9,6 +9,7 @@
   {% for f in feature_row %}
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="archive__item">
+        <div style="text-align: center;">
         {% if f.image_path %}
           <div class="archive__item-teaser">
             <img src="{{ f.image_path | relative_url }}"
@@ -18,6 +19,14 @@
             {% endif %}
           </div>
         {% endif %}
+        {% if f.fa_icon %}
+          <div class="iconimage">
+            <a href="{{ f.url | relative_url }}">
+              <i class="{{ f.fa_icon }}"></i>
+            </a>
+          </div>
+        {% endif %}
+
 
         <div class="archive__item-body">
           {% if f.title %}
@@ -33,6 +42,7 @@
           {% if f.url %}
             <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
           {% endif %}
+        </div>
         </div>
       </div>
     </div>
