@@ -3,11 +3,11 @@ main:
   - title: "About"
     url: /about/
   - title: "Consulting"
-    url: /projects/        
+    url: /consulting/        
   - title: "Workshops"
     url: /workshops/ 
   - title: "Blog"
-    url: /
+    url: /blog/
   # - title: "Advanced Python"
   #   url: /advanced-python/ 
   # - title: "ML Ops"

@@ -1,5 +1,5 @@
 ---
-permalink: /advanced-python/
+permalink: /workshops/advanced-python/
 title: "Understand Python Deeper"
 excerpt: "????."
 last_modified_at: 2020-09-29T10:15:22-04:00
@@ -8,6 +8,8 @@ classes: wide
 ---
 
 This is a 6 hour workshop.
+
+
 
 #### What you will learn
 

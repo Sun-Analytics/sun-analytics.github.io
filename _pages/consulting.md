@@ -1,5 +1,5 @@
 ---
-permalink: /projects/
+permalink: /consulting/
 title: "Consulting"
 excerpt: "About myself."
 last_modified_at: 2020-09-29T10:15:22-04:00

@@ -1,5 +1,5 @@
 ---
-permalink: /mlops/
+permalink: /workshops/mlops/
 title: "Machine Learning Industrialization"
 excerpt: "????."
 last_modified_at: 2020-09-29T10:15:22-04:00
