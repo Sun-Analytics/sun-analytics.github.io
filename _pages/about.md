@@ -2,7 +2,6 @@
 permalink: /about/
 title: "About"
 excerpt: "About myself."
-last_modified_at: 2020-09-29T10:15:22-04:00
 toc: false
 classes: wide
 ---
@@ -34,7 +33,7 @@ Hey there! I am a freelancer who provides **data science, machine learning engin
 
 #### Talks (selected)
 - Machine Learning Industrialization, AWS User Group the Netherlands, Nov 2019 [(link)](https://www.meetup.com/aws-ams/events/265590864/){:target="_blank"}
-- ML Ops and ML Industrialization, GoDataFest 2019, Amsterdam, Oct 2019 [(link)](https://www.godatafest.com/aws){:target="_blank"}
+- ML Ops and ML Industrialization, GoDataFest 2019, Amsterdam, Oct 2019 [(link)](https://www.eventbrite.com/e/godatafest-amazon-web-services-tickets-73932031697?utm_campaign=GoDataFest&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-99Tbti9J57Cd93giZ_WFR7c8TS0cKjrp7k0svOLU5UUzm5xRuBUh6oTTsqEIvGLry5c_3V#){:target="_blank"}
 - Peer Detection in Massive Payment Transaction Network, Open Data Science Conference, London, August 2018 [(link)](https://odsc.com/speakers/peer-detection-with-massive-payment-transaction-network/){:target="_blank"}
 - Large Scale Fuzzy Name Matching with a Custom ML Pipeline in Batch and Streaming, Spark+AI Summit 2018, San Francisco, June 2018 [(link)](https://databricks.com/session/large-scale-fuzzy-name-matching-with-a-custom-ml-pipeline-in-batch-and-streaming){:target="_blank"}
 

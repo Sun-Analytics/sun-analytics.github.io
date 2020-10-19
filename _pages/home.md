@@ -30,9 +30,8 @@ feature_row:
     alt: "icon product"
     title: "Data Product"
     excerpt: "We are building some data product, and hopefully it is an awesome one"
-    url: "/products/"
     btn_class: "btn--primary"
-    btn_label: "Read more"          
+    btn_label: "Coming soon"          
 ---
 
 {% include feature_row %}

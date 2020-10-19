@@ -2,12 +2,11 @@
 permalink: /workshops/mlops/
 title: "Machine Learning Industrialization"
 excerpt: "????."
-last_modified_at: 2020-09-29T10:15:22-04:00
 toc: false
 classes: wide
 ---
 
-This is a 2-day workshop.
+This is a 2-day workshop. Coming soon...
 
 #### What you will learn
 
@@ -17,7 +16,7 @@ This is a 2-day workshop.
 
 #### Agenda
 
-| Time  | Title                 | Content |
+<!-- | Time  | Title                 | Content |
 |-------|-----------------------|---------|
 | 09:00 | Introductions         |         |
 | 09:05 | Name and Value        |         |
@@ -28,7 +27,7 @@ This is a 2-day workshop.
 |       | break                 |         |
 |       | Garbage collection    |         |
 |       | Speed up your code    |         |
-|       | Misc                  |         |
+|       | Misc                  |         | -->
 
 #### Prerequisit
 
