@@ -1,7 +1,7 @@
 ---
-permalink: /workshops/advanced-python/
+permalink: /training/advanced-python/
 title: "Understand Python Deeper"
-excerpt: "????."
+excerpt: "Advanced Python for Data Scientists"
 toc: false
 classes: wide
 ---

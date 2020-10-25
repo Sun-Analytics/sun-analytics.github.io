@@ -8,7 +8,7 @@ Comparing very large feature vectors and picking the best matches, in practice o
 ### Introduction
 ING Wholesale Banking has huge amounts of data about many companies, but because the data comes from different source systems, inside and outside the bank, there is no single identifier that can be used to easily connect the data sets. Therefore, we have to connect the data sets based on the names of the companies in the different sets, which are often written in different ways.
 <figure class="align-center">
-    <img style="width: 70%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/name-matching/groundtruth.png" alt="">
+    <img style="width: 70%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/name-matching/groundtruth.png" alt="Conceptual example of the name matching problem at ING WBAA">
     <figcaption>Figure 1: Figure 1 Conceptual example of the name matching problem at ING WBAA. Companies in various source systems S1 to S3 have to be matched to our own list of companies G. Image by author</figcaption>
 </figure>
 
@@ -20,13 +20,13 @@ Our colleagues Wendell Kuling and Chris Broeren gave a presentation on this in a
 
 As shown in Figure 2, we implement the whole pipeline in Spark ML pipeline, which is elegant and fast (another post will discuss it). A preprocessing is done in order to reduce the noise in the names. TFIDF features ([Wiki page](https://en.wikipedia.org/wiki/Tf%E2%80%93idf){:target="_blank"}) are extracted for the names to represent them in vector format. Cosine similarity is used as the similarity metric between these vectors to find top n candidates. Among the selected candidates, the best match is found by a supervised method.
 <figure class="align-center">
-    <img style="width: 90%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/name-matching/pipeline.png" alt="">
+    <img style="width: 90%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/name-matching/pipeline.png" alt="name matching pipeline">
     <figcaption>Figure 2: name matching pipeline. Image by author</figcaption>
 </figure>
 
 It is noted that a very sparse matrix is generated after the vectorization. The feature space is 16 million (the vocabulary size of the vectorizer is 2²⁴). On average, one company name contains around 4~5 words. However, there is no native sparse matrix multiplication operation (strictly speaking, we are talking about sparse matrix times sparse matrix) in Spark v2.0 directly. Converting the matrices to dense matrices is not memory efficient. We designed a solution in Python based on [SciPy sparse matrix dot function](https://docs.scipy.org/doc/scipy-0.19.0/reference/generated/scipy.sparse.csr_matrix.dot.html){:target="_blank"} and a Spark UDF function. Then, the top-n candidates are selected using the NumPy [argpartition](http://%28https//docs.scipy.org/doc/numpy-1.13.0/reference/generated/numpy.argpartition.html){:target="_blank"} function . Figure 3 shows the two steps.
 <figure class="align-center">
-    <img style="width: 70%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/name-matching/sparse-matrix-multiplication.png" alt="">
+    <img style="width: 70%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/name-matching/sparse-matrix-multiplication.png" alt="Sparse matrix multiplication and get top-n candidates">
     <figcaption>Figure 3: Sparse matrix multiplication and get top-n candidates. Matrix A has M names to be matched and K features coming from the vectorizer; matrix B has N groundtruth names and also K features. The multiplication result C’ is a M × N matrix. Each row of C’ is a vector with similarity score of each groundtruth name. Then, a top-n score selection algorithm (In NumPy it is argpartition) is applied on each row, and the final result C is a M × n matrix.. Image by author</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ We borrow a nice explanation and visualization (Figure 4) of the CSR matrix from
 > In CSR, a matrix is stored as three one-dimensional arrays of row pointers, column indices and values, where the first two are of integer type and the last one of float type, usually double. As the name suggests, non-zero entries are stored per row, where each non-zero is defined by a pair of column index and corresponding value. The column indices and values arrays therefore have a length equal to the total number of non-zero entries. Row indices are given implicitly by the row pointer array, which contains the starting index in the column index and values arrays for the non-zero entries of each row. In other words, the non-zeros for row i are at positions row_ptr[i] up to but not including row_ptr[i+1] in the column index and values arrays.
 
 <figure class="align-center">
-    <img style="width: 70%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/name-matching/csr-illustration.png" alt="">
+    <img style="width: 70%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/name-matching/csr-illustration.png" alt="explanation of sparse matrix CSR format">
     <figcaption>Figure 4: explanation of sparse matrix CSR format (credit: PyOP2 documentation)
 .</figcaption>
 </figure>
@@ -55,7 +55,7 @@ We borrow a nice explanation and visualization (Figure 4) of the CSR matrix from
 The code to initialize a SciPy CSR matrix in shown in Figure 5. Note that the shape of the matrix is needed.
 
 <figure class="align-center">
-    <img style="width: 70%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/name-matching/csr-example.png" alt="">
+    <img style="width: 70%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/name-matching/csr-example.png" alt="Example of initializing a SciPy Compressed Sparse Row (CSR) matrix">
     <figcaption>Figure 5: Example of initializing a SciPy Compressed Sparse Row (CSR) matrix
 .</figcaption>
 </figure>
@@ -248,12 +248,12 @@ We compare two approaches to calculating the top-n similarity scores. The first 
 
 We can see the running time of SciPy approach is not linear with the density of the sparse matrix, because of the overhead of combining SciPy, NumPy and Python code. Assume the density is 0.1, **our pure C++ approach is 40% faster than the SciPy approach**. If the density is smaller, our approach is even faster.
 <figure class="align-center">
-    <img style="width: 70%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/name-matching/table-comparison.png" alt="">
+    <img style="width: 70%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/name-matching/table-comparison.png" alt="running time test with different sparsity of two matrices">
     <figcaption>Table 1: running time test with different sparsity of two matrices.</figcaption>
 </figure>
 
 <figure class="align-center">
-    <img style="width: 70%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/name-matching/bar-comparison.png" alt="">
+    <img style="width: 70%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/name-matching/bar-comparison.png" alt="Bar plot of computation time in different sparse matrix density">
     <figcaption>Figure 14: Bar plot of computation time in different sparse matrix density.</figcaption>
 </figure>
 

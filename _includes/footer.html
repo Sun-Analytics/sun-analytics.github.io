@@ -1,10 +1,25 @@
-<b>Contact:</b> 
-<a href="mailto:info@sun-analytics.nl">
-  <meta itemprop="email" content="{{ author.email }}" />
-  <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span>
-</a>
+<div>
+  <b>Contact:</b> &ensp;
+  <a href="mailto:info@sun-analytics.nl">
+    <meta itemprop="email" content="{{ author.email }}" />
+    <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span>
+  </a>
+  &emsp;
+  <a href="https://www.linkedin.com/in/zhesun1984/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+    <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
+  </a>
+</div>
 
-<a href="https://www.linkedin.com/in/zhesun1984/" itemprop="sameAs" rel="nofollow noopener noreferrer">
-  <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
-</a>
+<div>
+  <b>Link:</b>&emsp;&emsp;
+  <a href="/sitemap.xml">
+    <i class="fas fa-sitemap" aria-hidden="true"></i><span class="label">Sitemap</span>
+  </a>
+  &ensp;
+  <a href="/sitemap.xml">
+    <i class="fas fa-rss" aria-hidden="true"></i><span class="label">Feed</span>
+  </a>
+
+</div>
+
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }} {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>

@@ -4,8 +4,8 @@ main:
     url: /about/
   - title: "Consulting"
     url: /consulting/        
-  - title: "Workshops"
-    url: /workshops/ 
+  - title: "Training"
+    url: /training/ 
   - title: "Blog"
     url: /blog/
   # - title: "Advanced Python"
@@ -19,4 +19,4 @@ main:
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
-  #   url: /sitemap/
+  #   url: /sitemap.xml

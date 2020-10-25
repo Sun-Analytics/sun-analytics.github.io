@@ -1,12 +1,12 @@
 ---
 permalink: /about/
 title: "About"
-excerpt: "About myself."
+excerpt: "Zhe Sun is a freelancer providing data consultancy. In his 11 years industry experience, he has delivered more than 20 projects, 11 times AWS Certificated, a Kaggle expert with 1 gold and 1 silver medal. He provides trainings on SageMaker, MLOps and Advanced Python."
 toc: false
 classes: wide
 ---
 
-Hey there! I am a freelancer who provides **data science, machine learning engineering and data engineering solutions and consultancy**. Feel free to **[contact me](mailto:info@sun-analytics.nl)** for **[consulting](/consulting/)** or **[workshop](/workshops/)!**
+Hey there! I am a freelancer who provides **data science, machine learning engineering and data engineering solutions and consultancy**. Feel free to **[contact me](mailto:info@sun-analytics.nl)** for **[consulting](/consulting/)** or **[training](/training/)!**
 
 - **11-year** data science, data engineering and software engineering experience in multiple international companies
 - Delivered multiple **end-to-end** innovative data products and projects with massive data in different industries

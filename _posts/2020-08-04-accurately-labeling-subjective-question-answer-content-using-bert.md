@@ -14,7 +14,7 @@ tags:
 
 <figure class="align-center">
     <a href="https://www.kaggle.com/c/google-quest-challenge/overview" target="_blank">
-        <img style="width: 80%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/kaggle-question-answer/question-answer-competition.png" alt="">
+        <img style="width: 80%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/kaggle-question-answer/question-answer-competition.png" alt="kaggle question answer competition">
     </a>
     <figcaption>source: <a href="https://www.kaggle.com/c/google-quest-challenge/overview" target="_blank">kaggle</a></figcaption>
 </figure>
@@ -47,14 +47,14 @@ Why was spearman used in this kaggle competition? Considering the subjective and
 
 <figure class="align-center">
     <a href="https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient" target="_blank">
-    <img style="width: 45%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/kaggle-question-answer/spearman-rank-correlation-coefficient.png" alt="">
+    <img style="width: 45%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/kaggle-question-answer/spearman-rank-correlation-coefficient.png" alt="spearman rank correlation coefficient">
     </a>
     <figcaption>source: <a href="https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient" target="_blank">wikipedia</a></figcaption>
 </figure>     
 
 #### NLP Pipeline
 <figure class="align-center">
-    <img class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/kaggle-question-answer/nlp_pipeline.png" alt="">
+    <img class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/kaggle-question-answer/nlp_pipeline.png" alt="NLP pipeline">
     <figcaption>Image by author</figcaption>
 </figure>     
 
@@ -76,7 +76,7 @@ Now, we can restructure the NLP pipeline by using BERT:
 As illustrated in the figure below, we use four BERT-based models and a Universal Sentence Encoder model as base models, then stack them to generate the final result. In the rest of this blog, we will only focus on the transformer/BERT models. For more information of Universal Sentence Encoder, you can visit the original paper [here](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/46808.pdf){:target="_blank"}, and the code is available [here](https://www.kaggle.com/aerdem4/qa-use-save-model-weights){:target="_blank"}.
 
 <figure class="align-center">
-    <img style="width: 80%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/kaggle-question-answer/big picture.png" alt="big picture">
+    <img style="width: 80%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/kaggle-question-answer/big picture.png" alt="kaggle question answer competition solution architecture">
     <figcaption>Image by author</figcaption>
 </figure> 
 
@@ -89,7 +89,7 @@ The animation below shows how one base model works. The codes are [here](https:/
 Huggingface packages most state-of-the-art NLP models Pytorch implementations. In our solution, 4 BERT based models implemented by Huggingface are selected. They are Siamese [Roberta](https://huggingface.co/transformers/model_doc/roberta.html){:target="_blank"} base, Siamese [XLNet](https://huggingface.co/transformers/model_doc/xlnet.html){:target="_blank"} base, Double [Albert](https://huggingface.co/transformers/model_doc/albert.html){:target="_blank"} base V2, Siamese [BERT](https://huggingface.co/transformers/model_doc/bert.html){:target="_blank"} base uncased.
 
 <figure class="align-center">
-    <img style="width: 80%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/kaggle-question-answer/bert-based-model-large.gif" alt="big picture">
+    <img style="width: 80%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/kaggle-question-answer/bert-based-model-large.gif" alt="Kaggle quesiton answer solution bert based model architecture">
     <figcaption>Image by author</figcaption>
 </figure> 
 
@@ -112,11 +112,11 @@ Stacking is the “de-facto” ensemble strategy for kagglers. The animations be
 In the prediction stage, we input the test data to all out-of-fold base models to get the predictions. Then, we average the results, pass to the stacking model to get the final prediction
 
 <figure class="align-center">
-    <img style="width: 80%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/kaggle-question-answer/train.gif" alt="big picture">
+    <img style="width: 80%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/kaggle-question-answer/train.gif" alt="kaggle question answer solution: training architecture">
     <figcaption>Image by author</figcaption>
 </figure> 
 <figure class="align-center">
-    <img style="width: 80%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/kaggle-question-answer/inference.gif" alt="big picture">
+    <img style="width: 80%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/kaggle-question-answer/inference.gif" alt="kaggle question answer solution: inference architecture">
     <figcaption>Image by author</figcaption>
 </figure> 
 

@@ -2,6 +2,7 @@
 layout: archive
 permalink: /blog/
 classes: wide
+excerpt: "My blog posts. I also publish them in medium https://ymwdalex.medium.com/"
 ---
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>

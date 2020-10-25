@@ -1,7 +1,7 @@
 ---
 permalink: /consulting/
 title: "Consulting"
-excerpt: "About myself."
+excerpt: "Zhe Sun has delivered more than 20 innnotive data projects and products in different industries including manufactory, banking, energy, retail, telecom, gaming and media. He provides hands-on implementations, architecture design, technical leadership and advisory."
 toc: false
 classes: wide
 ---
