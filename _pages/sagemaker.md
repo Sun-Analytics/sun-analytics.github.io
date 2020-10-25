@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/training/sagemaker/background-page.png
   actions:
     - label: "<i class='far fa-calendar-check'></i>&nbsp; &nbsp; Book a training now"
-      url: "mailto:info@sun-analytics.nl?subject=[Workshop]%3ASageMaker%20training"
+      url: "mailto:info@sun-analytics.nl?subject=[Training]%3ASageMaker%20training"
 title: "Amazon SageMaker Training"
 excerpt: >
   This 1-day training provides you with hands-on experience to build, train, and deploy machine learning models on Amazon SageMaker.<br />

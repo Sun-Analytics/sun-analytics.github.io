@@ -11,7 +11,7 @@ header:
 #       url: "/docs/quick-start-guide/"
 title: "Training"
 excerpt: >
-  All trainings will be run online due to the COVID-19 measurement. Welcome to [contact us](mailto:info@sun-analytics.nl?subject=Workshop)
+  All trainings will be run online due to the COVID-19 measurement. Welcome to [contact us](mailto:info@sun-analytics.nl?subject=Training)
 feature_row:
   - image_path: "/assets/images/training/sagemaker/banner.png"
     alt: "sagemaker"
