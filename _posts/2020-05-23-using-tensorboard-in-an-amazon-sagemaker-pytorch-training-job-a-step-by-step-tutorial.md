@@ -24,7 +24,7 @@ In one of my recent projects, I need to use TensorBoard to visualize metrics fro
 ### How a SageMaker Training Job Exchanges Data between S3 and Training Instance
 First, let us have a look the big picture when executing a PyTorch SageMaker training job. SageMaker facilities the process below:
 <figure class="align-center">
-    <img style="width: 70%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/sagemaker-tensorboard/sagemaker-training-job.png" alt="">
+    <img style="width: 70%" class="align-center" src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/sagemaker-tensorboard/sagemaker-training-job.png" alt="SageMaker training job">
     <figcaption>SageMaker training job. Image by author</figcaption>
 </figure>
 
