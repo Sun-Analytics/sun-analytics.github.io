@@ -29,7 +29,7 @@ feature_row:
   - fa_icon: "fab fa-buromobelexperte fa-2x"
     alt: "icon product"
     title: "Data Product"
-    excerpt: "We are building some data product, and hopefully it is an awesome one"
+    excerpt: "We are building a data product, and hopefully it will be an awesome one"
     btn_class: "btn--primary"
     btn_label: "Coming soon"          
 ---
