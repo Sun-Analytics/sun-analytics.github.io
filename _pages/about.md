@@ -15,6 +15,7 @@ Hey there! I am a freelancer who provides **data science, machine learning engin
 - Experience in data science and data engineering consultancy, business translation, Scrum and project management
 
 #### Latest Professional Experiences
+- **2020.11 – present**, Machine Learning Engineer, **Nike**
 - **2018.10 – 2020.10**, Data Science and Data Engineering Consultant, **Amazon Web Services**
 - **2015.11 – 2018.09**, Senior Data Scientist, **ING Wholesale Banking Advanced Analytics Team**
 
