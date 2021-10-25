@@ -30,7 +30,7 @@ feature_row:
     alt: "icon product"
     title: "Data Product"
     excerpt: "UniFrame: a String-Matching-as-a-Service solution for business users and developers"
-    url: "/products/"
+    url: "https://uniframe.io"
     btn_class: "btn--primary"
     btn_label: "Get started"          
 ---
