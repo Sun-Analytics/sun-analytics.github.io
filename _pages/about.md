@@ -1,20 +1,21 @@
 ---
 permalink: /about/
 title: "About"
-excerpt: "Zhe Sun is a freelancer providing data consultancy. In his 11 years industry experience, he has delivered more than 20 projects, 11 times AWS Certificated, a Kaggle expert with 1 gold and 1 silver medal. He provides trainings on SageMaker, MLOps and Advanced Python."
+excerpt: "Zhe Sun is a freelancer on data consultancy. In his 11 years industry experience, he has delivered more than 20 projects, 11 times AWS Certificated, a Kaggle expert with 1 gold and 1 silver medal. He provides trainings on SageMaker, MLOps and Advanced Python."
 toc: false
 classes: wide
 ---
 
-Hey there! I am a freelancer who provides **data science, machine learning engineering and data engineering solutions and consultancy**. Feel free to **[contact me](mailto:info@sun-analytics.nl)** for **[consulting](/consulting/)** or **[training](/training/)!**
+Hey there! I am a freelancer on the field of **data science, machine learning engineering and data engineering solutions and consultancy**. Feel free to **[contact me](mailto:info@sun-analytics.nl)** for **[consulting](/consulting/)** or **[training](/training/)!** I am also the founder of **[uniframe.io](https://uniframe.io)**, a String-Matching-as-a-Service product.
 
-- **11-year** data science, data engineering and software engineering experience in multiple international companies
+- **12-year** data science, data engineering and software engineering experience in multiple international companies
 - Delivered multiple **end-to-end** innovative data products and projects with massive data in different industries
 - Solid machine learning knowledge and skills; a [**Kaggle Expert**](https://www.kaggle.com/zhesun){:target="_blank"} with 1 [gold](https://www.kaggle.com/c/google-quest-challenge){:target="_blank"} and 1 [silver](https://www.kaggle.com/c/GiveMeSomeCredit){:target="_blank"} medals
 - **9x AWS certified** including [Professional Solution Architect](https://www.youracclaim.com/badges/9e4a25fa-76cf-4793-8bff-bf66515d93fc/public_url){:target="_blank"}, [Devops Engineer](https://www.youracclaim.com/badges/013142e6-512d-4362-bb97-93a849f2cd9f/public_url){:target="_blank"}, [Big Data Specialty](https://www.youracclaim.com/badges/1ae314b9-b053-4fad-9894-6893b05f6feb/public_url){:target="_blank"}, [Machine Learning Specialty](https://www.youracclaim.com/badges/c2633ec6-be4d-43b6-8ae4-2f8f8fe98344/public_url){:target="_blank"}, [Security Specialty](https://www.youracclaim.com/badges/5037f963-d4ba-4752-bd2b-8d8a189ee434/public_url){:target="_blank"}, etc
 - Experience in data science and data engineering consultancy, business translation, Scrum and project management
 
 #### Latest Professional Experiences
+- **2021.01 – present**, Founder, **[uniframe.io](https://uniframe.io)**
 - **2020.11 – present**, Machine Learning Engineer, **Nike**
 - **2018.10 – 2020.10**, Data Science and Data Engineering Consultant, **Amazon Web Services**
 - **2015.11 – 2018.09**, Senior Data Scientist, **ING Wholesale Banking Advanced Analytics Team**
