@@ -65,7 +65,7 @@ We also support interactions via RESTful API. Here is an example of using Python
 </div>
 
 ### Summary
-UniFrame will make your string matching never be so easy. It provides an accurate, fast, configurable, ready-to-go string matching product, and it can be visited via web UI or RESTful API. The application is secure in all-round and can be deployed in the enterprise cloud infrastructure. Free use can upload up to 5MB dataset and create a small task with 0.2 CPU and 150 MB memory without any cost. Interested? Start using it with this demo account:
+UniFrame will make your string matching never be so easy. It provides an accurate, fast, configurable, ready-to-go string matching product, and it can be visited via web UI or RESTful API. The application is secure in all-round and can be deployed in the enterprise cloud infrastructure. Free use can upload up to 5MB dataset and create a small task with 0.2 CPU and 150 MB memory without any cost. Interested? Start using it with this demo account **info+demo@uniframe.io** with password **123456** to string matching to 1M company dataset, or create a free account to use the full UniFrame string matching functionalities!
 - **Website**: [https://uniframe.io](https://uniframe.io)
 - **Contact**: [info@uniframe.io](mailto:info@uniframe.io)
 - **Slack user group**: [https://uniframe-user-group.slack.com](https://uniframe-user-group.slack.com)
