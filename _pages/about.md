@@ -1,28 +1,56 @@
 ---
-permalink: /about/
+permalink: /
 title: "About"
-excerpt: "Zhe Sun is a freelancer on data consultancy. In his 11 years industry experience, he has delivered more than 20 projects, 11 times AWS Certificated, a Kaggle expert with 1 gold and 1 silver medal. He provides trainings on SageMaker, MLOps and Advanced Python."
+excerpt: "Zhe Sun is a Staff Machine Learning Engineer @ Meta. In his 13 years industry experience, he has delivered more than 20 products and projects, 10 AWS and Kubernetes certifications, a Kaggle expert with 1 gold and 1 silver medal. He provides trainings on SageMaker, MLOps and Advanced Python."
 toc: false
 classes: wide
 ---
 
-Hey there! I am a freelancer on the field of **data science, machine learning engineering and data engineering solutions and consultancy**. Feel free to **[contact me](mailto:info@sun-analytics.nl)** for **[consulting](/consulting/)** or **[training](/training/)!** I am also the founder of **[uniframe.io](https://uniframe.io)**, a String-Matching-as-a-Service product.
+Hey there! I am a **Staff Machine Learning Engineer @ Meta**. I have 13 years of industry experience, and delivered more than 20 innnotive data projects and products. I am also the founder of an open source project **[uniframe.io](https://uniframe.io)**, a String-Matching-as-a-Service product.
 
-- **12-year** data science, data engineering and software engineering experience in multiple international companies
+I was a freelancer between November 2020 and July 2022, where I delivered data consulting and training. I do not do any consulting project for now.
+
+#### Summary
+- **13-year** data science, data engineering and software engineering experience in multiple international companies
 - Delivered multiple **end-to-end** innovative data products and projects with massive data in different industries
 - Solid machine learning knowledge and skills; a [**Kaggle Expert**](https://www.kaggle.com/zhesun){:target="_blank"} with 1 [gold](https://www.kaggle.com/c/google-quest-challenge){:target="_blank"} and 1 [silver](https://www.kaggle.com/c/GiveMeSomeCredit){:target="_blank"} medals
-- **9x AWS certified** including [Professional Solution Architect](https://www.youracclaim.com/badges/9e4a25fa-76cf-4793-8bff-bf66515d93fc/public_url){:target="_blank"}, [Devops Engineer](https://www.youracclaim.com/badges/013142e6-512d-4362-bb97-93a849f2cd9f/public_url){:target="_blank"}, [Big Data Specialty](https://www.youracclaim.com/badges/1ae314b9-b053-4fad-9894-6893b05f6feb/public_url){:target="_blank"}, [Machine Learning Specialty](https://www.youracclaim.com/badges/c2633ec6-be4d-43b6-8ae4-2f8f8fe98344/public_url){:target="_blank"}, [Security Specialty](https://www.youracclaim.com/badges/5037f963-d4ba-4752-bd2b-8d8a189ee434/public_url){:target="_blank"}, etc
+- **9x AWS certified** including [Professional Solution Architect](https://www.youracclaim.com/badges/9e4a25fa-76cf-4793-8bff-bf66515d93fc/public_url){:target="_blank"}, [Devops Engineer](https://www.youracclaim.com/badges/013142e6-512d-4362-bb97-93a849f2cd9f/public_url){:target="_blank"}, [Big Data Specialty](https://www.youracclaim.com/badges/1ae314b9-b053-4fad-9894-6893b05f6feb/public_url){:target="_blank"}, [Machine Learning Specialty](https://www.youracclaim.com/badges/c2633ec6-be4d-43b6-8ae4-2f8f8fe98344/public_url){:target="_blank"}, [Security Specialty](https://www.youracclaim.com/badges/5037f963-d4ba-4752-bd2b-8d8a189ee434/public_url){:target="_blank"}, etc; **2x Kubernetes certified** including [CKA](https://www.credly.com/badges/5cd241cb-74e3-4a84-b1ec-c860218e0e98/public_url){:target="_blank"} and [CKAD](https://www.credly.com/badges/c3cc0545-53cf-4634-b292-998154a56155/public_url){:target="_blank"}
 - Experience in data science and data engineering consultancy, business translation, Scrum and project management
 
 #### Latest Professional Experiences
+- **2022.08 – present**, Staff Machine Learning, **Meta**
 - **2021.01 – present**, Founder, **[uniframe.io](https://uniframe.io)**
-- **2020.11 – present**, Machine Learning Engineer, **Nike**
+- **2020.11 – 2022.07**, Lead Machine Learning Engineer (Contractor), **Nike**
 - **2018.10 – 2020.10**, Data Science and Data Engineering Consultant, **Amazon Web Services**
 - **2015.11 – 2018.09**, Senior Data Scientist, **ING Wholesale Banking Advanced Analytics Team**
 
+#### Projects Experiences
+- **[Banking][Prod]** Next Best Action Model Migration and Productization (ML Ops on AWS)
+- **[Banking][Prod]** Personal Identifiable Information Detection (NLP, classification, Spark, Airflow)
+- **[Banking][Prod]** Company Similarity Detection (graph network embedding, similarity computation, Airflow)
+- **[Banking][Prod]** Large Scale Fuzzy Entity Matching (Spark, NLP, similarity computation, Airflow)
+- **[Banking][Prod]** Customer Segment Leads Detection (classification, Spark, name matching)
+- **[Banking][Prod]** Mortgage Arrears Repayment Classification (imbalance learning, Random Forest)
+- **[Banking]** Company Sales Prediction (time series forecasting, Seq2Seq)
+- **[Banking][Prod]** Company Financial Insight Dashboard (data pipeline, Spark, front-end, back-end, name matching, dashboarding)
+- **[Banking]** Data Lake Proof of Concept (AWS data lake, S3, Glue, Kafka, DynamoDB, ElasticSearch)
+- **[Manufactory][Prod]** Instagram Influencer Sale and Trend Prediction (classification, computer vision)
+- **[Manufactory]** Pill Images Classification on IoT Device (IoT, image classification)
+- **[Energy][Prod]** Dirty Cars and Smoking Person Detection in Petrol Station (IoT, image classification)
+- **[Energy]** Broken Device Detection on Electricity Transmission Network (object detection, multi-GPU)
+- **[Energy][Prod]** Customer Churn Prediction Model Data Pipeline (Spark, S3, Glue, SageMaker, AWS security)
+- **[Retail][Prod]** Advance Analytics Platform: managed JupyterHub and Airflow on Kubernetes (AWS EKS, Helm, Spark, Airflow, DevOps)
+- **[Telecom]** Real-time Streaming Data Ingestion and Personalized Recommendation PoC (Kafka, Glue, S3, DynamoDB, Lambda, Amazon Personalized)
+- **[Telecom][Prod]** Data Science Model Platform (SageMaker, Glue, StepFunction, Lambda, API Gateway)
+- **[HR]** Job Categorical Classification from 500K Job Description (NLP Classification, multi-class multi-label)
+- **[Environment]** Predictive Maintenance on Dike Sensor Data (time series clustering, Dynamic Time wrapping)
+- **[Lottery][Prod]** Data Platform (AWS S3, Redshift, DMS, Glue, CloudWatch)
+- **[Media]** Oracle Database Event-driven automated Migration (AWS DMS, Lambda, Cloudformation)
+
 #### Open Source Contributions
-- Fast way to get top n results from sparse matrix multiplication, co-author [(link)](https://github.com/ing-bank/sparse_dot_topn){:target="_blank"}, 2000 daily download, 160 stars
+- Fast way to get top n results from sparse matrix multiplication, co-author [(link)](https://github.com/ing-bank/sparse_dot_topn){:target="_blank"}, [~15000](https://pypistats.org/packages/sparse-dot-topn) daily download, 285 stars
 - Factorization Machine on Spark, co-author [(link)](https://github.com/blebreton/spark-FM-parallelSGD){:target="_blank"}, 210 stars
+- Time Series Generator, co-author, [(link)](https://github.com/Nike-Inc/timeseries-generator), 66 starts
 - Industry Code Embedding, co-author [(link)](https://github.com/ing-bank/industry2vec/){:target="_blank"}
 - Time Series Forecasting in PyTorch, author [(link)](https://github.com/ymwdalex/pytorch-time-series-forcasting){:target="_blank"}
 - Amazon SageMaker Examples, contributor [(link)](https://github.com/awslabs/amazon-sagemaker-examples){:target="_blank"}
@@ -39,7 +67,17 @@ Hey there! I am a freelancer on the field of **data science, machine learning en
 - Peer Detection in Massive Payment Transaction Network, Open Data Science Conference, London, August 2018 [(link)](https://odsc.com/speakers/peer-detection-with-massive-payment-transaction-network/){:target="_blank"}
 - Large Scale Fuzzy Name Matching with a Custom ML Pipeline in Batch and Streaming, Spark+AI Summit 2018, San Francisco, June 2018 [(link)](https://databricks.com/session/large-scale-fuzzy-name-matching-with-a-custom-ml-pipeline-in-batch-and-streaming){:target="_blank"}
 
+
+#### Kaggle Competition
+- Gold medal (6th in 1571 teams): Google Quest Q&A Labelling, 2020 [(link)](https://www.kaggle.com/c/google-quest-challenge)
+- Silver medal (43th in 924 teams): Give Me Some Credit, 2010 [(link)](https://www.kaggle.com/c/GiveMeSomeCredit)
+
+#### Publication
+- Classification System for Mortgage Arrear Management, Proceeding of IEEE Computational Intelligence for Financial Engineering and Economics 2014 [(link)](https://ieeexplore.ieee.org/abstract/document/6924113)
+
 #### Certifications
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5cd241cb-74e3-4a84-b1ec-c860218e0e98" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c3cc0545-53cf-4634-b292-998154a56155" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="9e4a25fa-76cf-4793-8bff-bf66515d93fc" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="013142e6-512d-4362-bb97-93a849f2cd9f" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c2633ec6-be4d-43b6-8ae4-2f8f8fe98344" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>

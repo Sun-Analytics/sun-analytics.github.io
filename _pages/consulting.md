@@ -5,6 +5,8 @@ excerpt: "Zhe Sun has delivered more than 20 innnotive data projects and product
 toc: false
 classes: wide
 ---
+**Currently, I am a full-time Machine Learning Engineer @ Meta, and I do not do any consulting project for now.**
+
 In the past few years, I involved multiple data science and data engineering projects for across different industries in EMEA region, including manufactory, banking, energy, retail, telecom, gaming and media. I provide **hands-on implementations, architecture design, technical leadership and advisory**. Below is a list of projects I delivered, where **[Prod]** is short for a deployed end-to-end solution in production.
 <!-- <span class="label label-primary">AWS</span>
 <span class="label label-primary">Data Engineering</span>
@@ -28,6 +30,7 @@ In the past few years, I involved multiple data science and data engineering pro
 - **[Manufactory]** Pill Images Classification on IoT Device (IoT, image classification)
 - **[Energy][Prod]** Dirty Cars and Smoking Person Detection in Petrol Station (IoT, image classification)
 - **[Energy]** Broken Device Detection on Electricity Transmission Network (object detection, multi-GPU)
+- **[Retail][Prod]** Advance Analytics Platform: managed JupyterHub and Airflow on Kubernetes (AWS EKS, Helm, Spark, Airflow, DevOps)
 - **[Telecom]** Real-time Streaming Data Ingestion and Personalized Recommendation PoC (Kafka, Glue, S3, DynamoDB, Lambda, Amazon Personalized)
 - **[Telecom][Prod]** Data Science Model Platform (SageMaker, Glue, StepFunction, Lambda, API Gateway)
 - **[HR]** Job Categorical Classification from 500K Job Description (NLP Classification, multi-class multi-label)

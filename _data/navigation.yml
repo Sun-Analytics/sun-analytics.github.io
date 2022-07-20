@@ -1,11 +1,11 @@
 # main links
 main:
   - title: "About"
-    url: /about/
-  - title: "Consulting"
-    url: /consulting/        
-  - title: "Training"
-    url: /training/ 
+    url: /
+  # - title: "Consulting"
+  #   url: /consulting/        
+  # - title: "Training"
+  #   url: /training/ 
   - title: "Blog"
     url: /blog/
   # - title: "Advanced Python"
