@@ -12,7 +12,7 @@ tags:
 **_UniFrame (uniframe.io): a String-Matching-as-a-Service_**
 
 ### TL;DR
-UniFrame (**[https://uniframe.io](https://uniframe.io)**) is a **String-Matching-as-a-Service** product. It provides a ready-to-go string matching solution, and can be used in scenarios like data enrichment, KYC, data deduplication in data-intensive organisations. By using UniFrame, users can make string matching much easier and save a lot of time and effort. Below are the key features of UniFrame:
+UniFrame (~~**[https://uniframe.io](https://uniframe.io)**~~ **[https://github.com/uniframe-io](https://github.com/uniframe-io)**) is a **String-Matching-as-a-Service** product. It provides a ready-to-go string matching solution, and can be used in scenarios like data enrichment, KYC, data deduplication in data-intensive organisations. By using UniFrame, users can make string matching much easier and save a lot of time and effort. Below are the key features of UniFrame:
 - A **ready-to-go** string matching product with **user, data and task management**
 - Support **both Web and Restful API interactive** for business and developer. Can be easily **integrated by Python, Excel and any other industry software**.
 - **Accurate** results on varied dataset, optimised algorithm to achieve **efficient computation**, highly **customised configuration**
@@ -66,7 +66,9 @@ We also support interactions via RESTful API. Here is an example of using Python
 
 ### Summary
 UniFrame will make your string matching never be so easy. It provides an accurate, fast, configurable, ready-to-go string matching product, and it can be visited via web UI or RESTful API. The application is secure in all-round and can be deployed in the enterprise cloud infrastructure. Free use can upload up to 5MB dataset and create a small task with 0.2 CPU and 150 MB memory without any cost. Interested? Start using it with this demo account **info+demo@uniframe.io** with password **123456** to string matching to 1M company dataset, or create a free account to use the full UniFrame string matching functionalities!
-- **Website**: [https://uniframe.io](https://uniframe.io)
+- ~~**Website**: [https://uniframe.io](https://uniframe.io)~~
+- **Github**: [https://github.com/uniframe-io](https://github.com/uniframe-io)
 - **Contact**: [info@uniframe.io](mailto:info@uniframe.io)
-- **Slack user group**: [https://uniframe-user-group.slack.com](https://uniframe-user-group.slack.com)
-- **Questionnaire**: [https://forms.gle/9RfcUeG8Twm55fez9](https://forms.gle/9RfcUeG8Twm55fez9)
+
+### Update on Nov 30th
+I do not maintain the website anymore. Most code are open sourced in [https://github.com/uniframe-io](https://github.com/uniframe-io). It is is subject to a Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Please contact me via info@uniframe.io for any commercial usage.
